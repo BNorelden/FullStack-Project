@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
                                                     // angular: http://localhost:4200/
-@CrossOrigin(origins = { "http://localhost:3000/"})// react: http://localhost:3000 //frontend will have to link angular here maybe?
+@CrossOrigin(origins = { "http://localhost:3000/"})// react: http://localhost:3000
 @RestController
 public class BikePartController {
 
